@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    width: 1440px;
+    margin: auto;
+    font-family: 'Roboto';
+}
+
+#section3 {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;
+}
+
+#section3 #laptopGirl {
+    position: absolute;
+    width: 971.05px;
+    height: 628.38px;
+    bottom: 0;
+    z-index: 2;
+}
+
+#section3 #vector2 {
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+
+#section3 h1 {
+    position: absolute;
+    width: 531px;
+    height: 113px;
+    left: 763px;
+    top: 65px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 112px;
+    /* identical to box height */
+    text-align: center;
+    color: #403B3B;
+}
+
+#section3 div {
+    position: absolute;
+    width: 641px;
+    height: 504px;
+    left: 742px;
+    top: 224px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: justify;
+}
+
+#section4 {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F4F4F4;
+}
+
+#section4 h1 {
+    position: absolute;
+    width: 567.01px;
+    height: 82.64px;
+    left: 358.92px;
+    top: 220px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 30px;
+    /* or 60% */
+    text-align: center;
+    color: #3F3B3B;
+}
+
+#section4 img {
+    position: absolute;
+    width: 574px;
+    height: 574px;
+    left: 733px;
+    top: 244px;
+}
+
+#section4 form {
+    position: absolute;
+    width: 478.63px;
+    height: 477.2px;
+    left: 120.18px;
+    top: 331.9px;
+}
+
+#section4 form label input[name="email"],
+#section4 form label input[name="subject"],
+#section4 form label input[name="message"] {
+    width: 479px;
+    height: 57px;
+    padding: 0 10px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px 0;
+    line-height: 20px;
+}
+
+#section4 form label input[name="message"] {
+    line-height: 247px;
+    height: 247px;
+}
+
+#section4 form label input[name="send"] {
+    width: 183px;
+    height: 52px;
+    line-height: 52px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    background: #C24FBC;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    position: relative;
+    left: 148px;
+    transition: transform 0.2s ease-in;
+}
+
+#section4 form label input[name="send"]:active {
+    transform: translateY(3px);
+}
